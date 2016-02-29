@@ -1,0 +1,65 @@
+{
+	"name": "intellij-keybindings",
+	"displayName": "IntelliJ Keybindings",
+	"description": "Port of IntelliJ Keybindings",
+	"version": "1.0.0",
+	"publisher": "waderyan",
+	"engines": {
+		"vscode": "^0.10.6"
+	},
+	"categories": [
+		"Other"
+	],
+	"contributes": {
+		"keybindings": [{
+            "key": "ctrl+d",
+            "mac": "cmd+d",                     
+            "command": "editor.action.copyLinesDownAction",
+            "when": "editorTextFocus" 
+         }, { 
+             "key": "ctrl+l",
+             "mac": "cmd+l",                    
+             "command": "editor.action.deleteLines",
+             "when": "editorTextFocus" 
+         }, { "key": "ctrl+shift+s",
+              "mac": "cmd+shift+s",             
+              "command": "workbench.action.files.saveAll" 
+         }, { "key": "ctrl+alt+l",
+              "mac": "cmd+alt+l",               
+              "command": "workbench.action.files.revealActiveFileInWindows" 
+         }, { "key": "ctrl+n",
+              "mac": "cmd+n",                   
+              "command": "workbench.action.quickOpen" 
+         }, { "key": "ctrl+m",
+              "mac": "cmd+m",                
+              "command": "editor.action.goToTypeDeclaration" 
+         }, { "key": "ctrl+-",
+              "mac": "cmd+-",                    
+              "command": "workbench.action.navigateBack" 
+         }, { "key": "ctrl+shift+alt+n",
+              "mac": "ctrl+shift+alt+n",          
+              "command": "workbench.action.gotoSymbol"  
+         }, { "key": "ctrl+w",
+              "mac": "cmd+w",                    
+              "command": "editor.action.smartSelect.grow",
+              "when": "editorTextFocus" 
+         }, { "key": "ctrl+shift+w",
+              "mac": "cmd+shift+w",               
+              "command": "editor.action.smartSelect.shrink",
+              "when": "editorTextFocus" 
+         }, { "key": "ctrl+7",
+              "mac": "cmd+7",                  
+              "command": "editor.action.commentLine",
+              "when": "editorTextFocus" 
+         }]
+	},
+	"scripts": {
+		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"typescript": "^1.7.5",
+		"vscode": "^0.11.0"
+	}
+}
