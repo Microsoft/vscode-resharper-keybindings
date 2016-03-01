@@ -2,7 +2,7 @@
 	"name": "resharper9-keybindings",
 	"displayName": "Resharper 9 Keybindings",
 	"description": "Port of Resharper 9 Keybindings",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"publisher": "waderyan",
 	"engines": {
 		"vscode": "0.10.x"
