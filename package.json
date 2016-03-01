@@ -1,7 +1,7 @@
 {
-	"name": "intellij-keybindings",
-	"displayName": "IntelliJ Keybindings",
-	"description": "Port of IntelliJ Keybindings",
+	"name": "resharper9-keybindings",
+	"displayName": "Resharper 9 Keybindings",
+	"description": "Port of Resharper 9 Keybindings",
 	"version": "1.0.0",
 	"publisher": "waderyan",
 	"engines": {
@@ -10,6 +10,7 @@
 	"categories": [
 		"Other"
 	],
+    "icon": "resharper.png",
 	"contributes": {
 		"keybindings": [{
             "key": "ctrl+d",
@@ -61,5 +62,18 @@
 	"devDependencies": {
 		"typescript": "^1.7.5",
 		"vscode": "^0.11.0"
-	}
+	},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waderyan/vscode-resharper-keybindings"
+    },
+    "bugs": {
+        "url": "https://github.com/waderyan/vscode-resharper-keybindings/issues",
+        "email": "wade.anderson@microsoft.com"
+    },
+    "homepage": "https://github.com/waderyan/vscode-resharper-keybindings/blob/master/README.md",
+    "galleryBanner": {
+        "color": "#0000FF",
+        "theme": "dark"
+    }
 }
