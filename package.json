@@ -10,6 +10,7 @@
 	"categories": [
 		"Other"
 	],
+    "license": "See license in LICENSE",
     "icon": "resharper.png",
 	"contributes": {
 		"keybindings": [{
