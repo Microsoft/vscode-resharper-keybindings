@@ -5,12 +5,11 @@
 	"version": "1.0.0",
 	"publisher": "waderyan",
 	"engines": {
-		"vscode": "^0.10.6"
+		"vscode": "0.10.x"
 	},
 	"categories": [
 		"Other"
 	],
-    "license": "See license in LICENSE",
     "icon": "resharper.png",
 	"contributes": {
 		"keybindings": [{
@@ -56,10 +55,9 @@
          }]
 	},
 	"scripts": {
-		"vscode:prepublish": "node ./node_modules/vscode/bin/compile",
-		"compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
         "postinstall": "node ./node_modules/vscode/bin/install"
 	},
+    "dependencies": {},
 	"devDependencies": {
 		"typescript": "^1.7.5",
 		"vscode": "^0.11.0"
