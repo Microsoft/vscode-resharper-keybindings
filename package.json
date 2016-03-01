@@ -57,9 +57,7 @@
 	"scripts": {
         "postinstall": "node ./node_modules/vscode/bin/install"
 	},
-    "dependencies": {},
 	"devDependencies": {
-		"typescript": "^1.7.5",
 		"vscode": "^0.11.0"
 	},
     "repository": {
@@ -70,7 +68,6 @@
         "url": "https://github.com/waderyan/vscode-resharper-keybindings/issues",
         "email": "wade.anderson@microsoft.com"
     },
-    "homepage": "https://github.com/waderyan/vscode-resharper-keybindings/blob/master/README.md",
     "galleryBanner": {
         "color": "#0000FF",
         "theme": "dark"
