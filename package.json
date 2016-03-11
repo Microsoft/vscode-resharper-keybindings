@@ -11,6 +11,7 @@
 		"Other"
 	],
     "icon": "keyboard.png",
+    "license": "license.txt",
 	"contributes": {
 		"keybindings": [{
             "key": "ctrl+d",
