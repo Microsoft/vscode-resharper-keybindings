@@ -55,6 +55,11 @@
                 "command": "workbench.action.navigateBack"
             },
             {
+                "key": "ctrl+shift+-",
+                "mac": "cmd+shift+-",
+                "command": "workbench.action.navigateForward"
+            },
+            {
                 "key": "ctrl+shift+alt+n",
                 "mac": "ctrl+shift+alt+n",
                 "command": "workbench.action.gotoSymbol"

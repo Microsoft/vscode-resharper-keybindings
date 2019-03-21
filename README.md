@@ -11,6 +11,7 @@ Port of Resharper 9 key bindings for VS Code. Migration was originally done in t
 | ctrl+n | cmd+n | Quick Open | Yes | 
 | ctrl+m | cmd+m | Go to type Declaration | Yes | 
 | ctrl+- | cmd+- | Navigate Back | Yes | 
+| ctrl+shift+- | cmd+shift+- | Navigate Forward | Yes | 
 | ctrl+shift+alt+n | ctrl+shift+alt+n | Go to Symbol | Yes |
 | ctrl+w | cmd+w | Selection Grow | Yes | 
 | ctrl+shift+w | cmd+shift+w | Selection Shrink | Yes | 
